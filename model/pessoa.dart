@@ -3,16 +3,19 @@ class Pessoa {
 
   Pessoa(this._nome, this._email);
 
-  String getNome(){
+  String getNome() {
     return this._nome;
   }
 
-  String getEmail(){
+  String getEmail() {
     return this._email;
   }
 
-  void editNome(String novoNome, String novoEmail){
+  void setNome(String novoNome) {
     this._nome = novoNome;
+  }
+
+  void setEmail(String novoEmail) {
     this._email = novoEmail;
   }
 
